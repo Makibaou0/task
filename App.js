@@ -8,6 +8,7 @@ import Home from './src/pages/Home';
 import Login from './src/pages/Login';
 import Splash from './src/pages/Splash';
 import Detail from './src/pages/Detail';
+import {PRIMARY} from './src/utils/Statis';
 
 const theme = extendTheme({
   fontConfig: {
@@ -75,7 +76,7 @@ const App = () => {
   return (
     <SafeAreaProvider>
       <NativeBaseProvider theme={theme}>
-        <StatusBar barStyle={'light-content'} />
+        <StatusBar backgroundColor={PRIMARY.BLUE} barStyle={'light-content'} />
 
         <NavigationContainer>
           <Stack.Navigator

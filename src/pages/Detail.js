@@ -41,7 +41,7 @@ const Detail = route => {
       <ScrollView
         p={5}
         contentContainerStyle={{
-          paddingBottom: inset.bottom,
+          paddingBottom: inset.bottom + 100,
         }}>
         <VStack space={2}>
           <Text fontWeight={'semibold'} fontSize="md">

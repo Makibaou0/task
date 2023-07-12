@@ -163,7 +163,7 @@ const Home = route => {
 
       <FlatList
         contentContainerStyle={{
-          paddingBottom: inset.bottom,
+          paddingBottom: inset.bottom + 100,
         }}
         data={filterData}
         renderItem={({item}) => (
